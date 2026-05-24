@@ -171,3 +171,7 @@ body {
 .glass-panel:hover h1 {
     color: #3498db;
 }
+
+.comment {
+    color: rgba(165, 165, 165, 1)
+}
