@@ -50,6 +50,8 @@ body {
 }
 
 .glass-panel {
+    display: flex;
+    flex-direction: column;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -173,5 +175,6 @@ body {
 }
 
 .comment {
-    color: rgba(165, 165, 165, 1)
+    margin-top: auto;
+    color: rgba(165, 165, 165, 1);
 }
